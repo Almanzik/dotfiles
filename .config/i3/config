@@ -8,39 +8,7 @@
 # auto exec  #
 ##############
 #exec --no-startup-id xfce4-panel --disable-wm-check
-exec --no-startup-id feh --bg-scale /home/alman/.wp/ypcLpYi.jpg
-############################################
-#####
-#####   Window Appearances
-#####
-############################################
- 
-## Keep borders of windows at a certain size.
-for_window [class="^.*"] border pixel 3
- 
-##  Set window font
-font pango:Liberation Mono 8
- 
-###########################################
-#####
-#####   Gaps Options
-#####
-###########################################
- 
-gaps inner 5
-gaps outer 5
- 
-smart_gaps on
-smart_borders 1
-
-
-#####
-# i3 config file (v4)
-#
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
-
-set $mod Mod4
-
+exec --no-startup-id feh -=randomize --bg-fill ~/.wp/*
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:Cousine 9
